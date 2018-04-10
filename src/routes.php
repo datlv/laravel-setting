@@ -3,7 +3,7 @@ Route::group(
     [
         'prefix'     => config('setting.route_prefix') . '/setting/{zone}',
         'as'         => 'backend.setting.',
-        'namespace'  => 'Minhbang\Setting',
+        'namespace'  => 'Datlv\Setting',
         'middleware' => config('setting.middleware'),
     ],
     function () {

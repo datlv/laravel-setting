@@ -32,10 +32,10 @@ return [
     ],
     // Setting zones
     'zones'        => [
-        'app' => \Minhbang\Setting\AppZone::class,
+        'app' => \Datlv\Setting\AppZone::class,
     ],
 
-    'html'         => \Minhbang\Setting\Html::class,
+    'html'         => \Datlv\Setting\Html::class,
 
     'default_field_options' => [
         'type'       => 'text',
